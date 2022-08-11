@@ -9,8 +9,8 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #282f59;
-  display: grid;
-  place-items: center;
+  text-align: center;
+  margin-top: 3rem;
   font-family: popins, sans-serif;
   font-weight: 300;
   line-height: 1.5;
@@ -35,7 +35,9 @@ button:hover {
   position: fixed;
   display: grid;
   place-items: center;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
 
   display: none;
   animation: openModal 500ms linear forwards;
