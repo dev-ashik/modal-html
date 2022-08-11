@@ -8,7 +8,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #f24438;
+  background-color: #282f59;
   display: grid;
   place-items: center;
   font-family: popins, sans-serif;
@@ -42,7 +42,7 @@ button:hover {
 }
 
 .modal .card {
-  background: white;
+  background: rgb(155, 153, 153);
   width: 50rem;
   display: flex;
   align-items: center;
@@ -56,6 +56,13 @@ button:hover {
   top: 2rem;
   right: 2rem;
   font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.modal .card #close:hover {
+  font-weight: bold;
+  transform: scale(1.4);
+  transition: transform .3s ease;
 }
 
 .modal .card .brand {
@@ -80,7 +87,7 @@ button:hover {
 }
 
 .modal .card input[type="email"] {
-  background: #eee;
+  background: rgb(189, 188, 188);
   width: 100%;
   padding: 1rem;
   outline: none;
